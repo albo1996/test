@@ -2,6 +2,7 @@
 #include <stdio.h>
 #include "age.h"
 
+//4:15 09.01.2021
 struct data
 {
 	char name[21];
