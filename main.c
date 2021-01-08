@@ -12,7 +12,7 @@ struct data
 
 int main()
 {
-	printf("Введите данные...\n\n");
+	printf("Введите данные...\n");
 
 	printf("Имя: ");
 	scanf("%s", person.name);
@@ -25,7 +25,7 @@ int main()
 
 	printf("\n\n");
 
-	printf("Полученные данные:\n");
+	printf("Полученные данные:\n\n");
 
 	printf("%s | %s | %d\n", person.name, person.surname, person.year);
 
