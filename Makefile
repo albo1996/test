@@ -1,5 +1,6 @@
 all: main.o age.o
 	gcc main.o age.o -o main
+	clear
 main.o: main.c
 	gcc -c main.c
 age.o: age.c
@@ -7,3 +8,4 @@ age.o: age.c
 clear:
 	rm main
 	rm *.o
+	clear
